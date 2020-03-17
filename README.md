@@ -12,10 +12,11 @@ Step-by-Step for setting up Django with Docker:
 3) Run: docker-compose build
 
 4) Run: docker-compose run app sh -c "django-admin startproject first_project ."
+   Run: docker-compose build
 
 5) add '0.0.0.0' to ALLOWED_HOSTS in settings.py
 
-6) cd into your first_project folder and then run:
+6) cd into your 'app' folder and then run:
     docker-compose up
     
     
