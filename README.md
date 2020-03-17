@@ -7,9 +7,7 @@ Step-by-Step for setting up Django with Docker:
 1) Download Docker at https://www.docker.com
     -create an account
     
-    
-2) Clone this repository
-
+2) Clone this repository to your local machine. Create a folder called 'app' once done. Keep it empty.
 
 3) Run: docker-compose build
 
